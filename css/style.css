@@ -63,7 +63,7 @@ nav {
       background: #ff8402;
       display: inline-block;
       float: left; }
-    .container .row-1 .col-2, .container .row-1 .row-2 .col-3, .container .row-2 .row-1 .col-3 {
+    .container .row-1 .col-2 {
       background: #3b4044; }
     .container .row-1 .col-3 {
       background: #4a4947; }
@@ -82,14 +82,19 @@ nav {
       width: 33.33333%;
       height: 14em;
       background: #ff8402;
-      display: inline-block; }
-    .container .row-2 .col-2, .container .row-2 .col-3 {
+      display: inline-block;
+      float: left; }
+    .container .row-2 .col-2 {
       width: 33.33333%;
       height: 14em;
       background: #3b4044;
       display: inline-block;
       float: left; }
     .container .row-2 .col-3 {
+      width: 33.33333%;
+      height: 14em;
+      background: #4a4947;
+      display: inline-block;
       background: #4a4947; }
   .container .row-3 {
     margin-bottom: 1em; }
@@ -99,7 +104,7 @@ nav {
       background: #ff8402;
       display: inline-block;
       float: left; }
-    .container .row-3 .col-2, .container .row-3 .row-2 .col-3, .container .row-2 .row-3 .col-3 {
+    .container .row-3 .col-2 {
       background: #3b4044; }
     .container .row-3 .col-3 {
       background: #4a4947; }
@@ -109,22 +114,21 @@ nav {
       background: #e8e1db;
       display: inline-block; }
   .container .row-4 {
-    margin-bottom: 1em; }
+    position: center;
+    margin: 1em auto; }
     .container .row-4 .internal-box {
-      width: 95%;
+      width: 94%;
       height: 5em;
       background: #f9f2ec;
       display: inline-block;
-      position: relative;
-      top: 1em;
-      left: 1em; }
+      margin: 1em; }
     .container .row-4 .col-1, .container .row-4 .row-1 .col-2, .container .row-1 .row-4 .col-2, .container .row-4 .row-1 .col-3, .container .row-1 .row-4 .col-3, .container .row-4 .row-1 .col-4, .container .row-1 .row-4 .col-4, .container .row-4 .row-1 .col-5, .container .row-1 .row-4 .col-5, .container .row-4 .row-3 .col-2, .container .row-3 .row-4 .col-2, .container .row-4 .row-3 .col-3, .container .row-3 .row-4 .col-3 {
       width: 50%;
       height: 7em;
       background: #ff8402;
       display: inline-block;
       float: left; }
-    .container .row-4 .col-2, .container .row-4 .row-2 .col-3, .container .row-2 .row-4 .col-3 {
+    .container .row-4 .col-2 {
       width: 50%;
       height: 7em;
       background: #3b4044;

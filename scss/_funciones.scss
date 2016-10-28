@@ -1,0 +1,3 @@
+@function calculateGrid($numeroColumnas, $totalColumnas:12){
+	@return percentage($numeroColumnas / $totalColumnas);
+}
