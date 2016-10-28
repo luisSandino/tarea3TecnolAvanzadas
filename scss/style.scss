@@ -1,6 +1,7 @@
 
 @import '_variables';
 @import '_reset';
+@import '_funciones';
 
 nav{
 	width:100%;
@@ -10,10 +11,11 @@ nav{
 	
 }
 .container{
-
-	width:80%;
+	
+	width:70%;
 	margin: 0 auto;
 	.row-1{
+		margin-bottom: 1em;
 		width: 100%;
 		.col-1{
 			width: $cols-row1;
@@ -24,73 +26,59 @@ nav{
 		}
 		
 		.col-2{
-			width: $cols-row1;
-			height: 14em;
+			@extend .col-1;
 			background: $gris-1;
-			display: inline-block;
-			float: left;
 		}
 		.col-3{
-			width: $cols-row1;
-			height: 14em;
-			background: $gris-2;
-			display: inline-block;
-			float: left;
+			@extend .col-1;
+			background: $gris-2;	
 		}
 		.col-4{
-			width: $cols-row1;
-			height: 14em;
+			@extend .col-1;
 			background: $gris-3;
-			display: inline-block;
-			float: left;
 		}
 		.col-5{
-			width: $cols-row1;
-			height: 14em;
+			@extend .col-1;
 			background: $gris-4;
-			display: inline-block;
-			float: left;
 		}
 		.col-6{
 			width: $cols-row1;
 			height: 14em;
 			background: $gris-5;
 			display: inline-block;
-			float: left;
+			
 		}
 
 		
 	}
 
 	.row-2{
-		
+		margin-bottom: 1em;
 		.col-1{
 			width: $cols-row2;
-			height: 7em;
+			height: 14em;
 			background: $orange-1;
 			display: inline-block;
-			float: left;
+			
 		
 		}
 		.col-2{
 			width: $cols-row2;
-			height: 7em;
+			height: 14em;
 			background: $gris-1;
 			display: inline-block;
 			float: left;
 		}
 		.col-3{
-			width: $cols-row2;
-			height: 7em;
+			@extend .col-2;
 			background: $gris-2;
-			display: inline-block;
-			float: left;
+			
 			
 		}
 	}
 
 	.row-3{
-		display: inline;
+		margin-bottom: 1em;
 		.col-1{
 			width: $cols-row3;
 			height: 14em;
@@ -100,38 +88,35 @@ nav{
 		}
 		
 		.col-2{
-			width: $cols-row3;
-			height: 14em;
+			@extend .col-1;
 			background: $gris-1;
-			display: inline-block;
-			float: left;
 		}
 		.col-3{
-			width: $cols-row3;
-			height: 14em;
+			@extend .col-1;
 			background: $gris-2;
-			display: inline-block;
-			float: left;
 		}
 		.col-4{
 			width: $cols-row3;
 			height: 14em;
 			background: $gris-3;
 			display: inline-block;
-			float: left;
+			
 		}
 		
 	}
 	.row-4{
+		margin-bottom: 1em;
 		.internal-box{
 			width: $internal-box;
 			height: 5em;
 			background: $gris-4;
 			display: inline-block;
-			float: left;
+			position: relative;
+			top:1em;
+			left:1em;
+			
 
 		}
-		display: inline;
 		.col-1{
 			width: $cols-row4;
 			height: 7em;
@@ -145,7 +130,7 @@ nav{
 			height: 7em;
 			background: $gris-1;
 			display: inline-block;
-			float: left;
+			
 		}
 		
 		
