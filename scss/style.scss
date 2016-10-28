@@ -1,0 +1,159 @@
+
+@import '_variables';
+@import '_reset';
+
+nav{
+	width:100%;
+	height:8em;
+	background: $gris-2;
+	margin-bottom: 1em;
+	
+}
+.container{
+
+	width:80%;
+	margin: 0 auto;
+	.row-1{
+		width: 100%;
+		.col-1{
+			width: $cols-row1;
+			height: 14em;
+			background: $orange-1;
+			display: inline-block;
+			float: left;
+		}
+		
+		.col-2{
+			width: $cols-row1;
+			height: 14em;
+			background: $gris-1;
+			display: inline-block;
+			float: left;
+		}
+		.col-3{
+			width: $cols-row1;
+			height: 14em;
+			background: $gris-2;
+			display: inline-block;
+			float: left;
+		}
+		.col-4{
+			width: $cols-row1;
+			height: 14em;
+			background: $gris-3;
+			display: inline-block;
+			float: left;
+		}
+		.col-5{
+			width: $cols-row1;
+			height: 14em;
+			background: $gris-4;
+			display: inline-block;
+			float: left;
+		}
+		.col-6{
+			width: $cols-row1;
+			height: 14em;
+			background: $gris-5;
+			display: inline-block;
+			float: left;
+		}
+
+		
+	}
+
+	.row-2{
+		
+		.col-1{
+			width: $cols-row2;
+			height: 7em;
+			background: $orange-1;
+			display: inline-block;
+			float: left;
+		
+		}
+		.col-2{
+			width: $cols-row2;
+			height: 7em;
+			background: $gris-1;
+			display: inline-block;
+			float: left;
+		}
+		.col-3{
+			width: $cols-row2;
+			height: 7em;
+			background: $gris-2;
+			display: inline-block;
+			float: left;
+			
+		}
+	}
+
+	.row-3{
+		display: inline;
+		.col-1{
+			width: $cols-row3;
+			height: 14em;
+			background: $orange-1;
+			display: inline-block;
+			float: left;
+		}
+		
+		.col-2{
+			width: $cols-row3;
+			height: 14em;
+			background: $gris-1;
+			display: inline-block;
+			float: left;
+		}
+		.col-3{
+			width: $cols-row3;
+			height: 14em;
+			background: $gris-2;
+			display: inline-block;
+			float: left;
+		}
+		.col-4{
+			width: $cols-row3;
+			height: 14em;
+			background: $gris-3;
+			display: inline-block;
+			float: left;
+		}
+		
+	}
+	.row-4{
+		.internal-box{
+			width: $internal-box;
+			height: 5em;
+			background: $gris-4;
+			display: inline-block;
+			float: left;
+
+		}
+		display: inline;
+		.col-1{
+			width: $cols-row4;
+			height: 7em;
+			background: $orange-1;
+			display: inline-block;
+			float: left;
+		}
+		
+		.col-2{
+			width: $cols-row4;
+			height: 7em;
+			background: $gris-1;
+			display: inline-block;
+			float: left;
+		}
+		
+		
+	}
+	.footer{
+		width: $cols-footer;
+		height: 7em;
+		background: $gris-1;
+		display: inline-block;
+	}
+}	
